@@ -1,7 +1,60 @@
 body {
-    background: orange;
+    background-color: #f6f6f6;
 }
 
 h1 {
-    color: red;
+    /* Colour */
+    color: #287094;
+    text-shadow: 2px 2px 1px black;
+}
+
+/* HEADER/TITLE */
+.header {
+    vertical-align: middle;
+    
+    position: relative;
+    padding: 0.25ch 0 0.25ch 0;
+}
+
+.title {
+    /* Display */
+    /* Colour */
+    text-align: center;
+    font-size: 4ch;
+}
+
+.page-link {
+    position: relative;
+    padding-top: 5ch;
+}
+
+#button-container {
+	padding-top: 5px;
+	padding-bottom: 5ch;
+	width: 100%;
+	text-align: center;
+}
+
+.button {
+	/* General */
+	display: inline-block;
+	cursor: pointer;
+	padding: 20px;
+    width: max(15ch, 20vw);
+
+	/* Background */
+	background-color: #d4d4ce;
+
+	/* Border */
+	border-radius: 4.2vh;
+	border: 2px solid #023246;
+
+	/* Text */
+	font-family: Arial;
+	font-size: 28px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: #287094;
+
 }
